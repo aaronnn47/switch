@@ -1,18 +1,15 @@
-import React from 'react';
-import './App.css';
-import Switch from './Images/switch.png'
+import React, {Component} from 'react'
+import {HashRouter} from 'react-router-dom'
+import routes from './routes'
 
-function App() {
-  return (
-    <div className="App">
-      <img src={Switch} alt=''/>
-
-      <div className="text">
-      Coming soon
-      </div>
-    </div>
-    
-  );
+class App extends Component{
+    render(){
+        return(
+            <HashRouter>
+                {routes}
+            </HashRouter>
+        )
+    }
 }
 
-export default App;
+export default App
