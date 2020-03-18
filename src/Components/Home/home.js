@@ -10,7 +10,8 @@ function Home() {
         <img src={Photo} alt=''/>
       </div>
       
-        <p>Products</p>
+
+      <p>Products</p>
 
       <div className='home-products'>
         <div className='home-product'/>
@@ -19,6 +20,7 @@ function Home() {
         <div className='home-product'/>
 
       </div>
+      
 
       <div className="text">
         Coming soon
