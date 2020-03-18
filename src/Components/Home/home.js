@@ -1,16 +1,16 @@
 import React from 'react';
 import './home.css';
-import Switch from '../../Images/switch.png'
+import Photo from '../../Images/photo.png'
 
 function Home() {
   return (
-    <div className="App">
-      <div className="middle-section">
-        <div className='home-image'>
-        <img src={Switch} alt=''/>
-      </div>
+    <div className="Home">
 
-      <p>Products</p>
+      <div className="middle-section">
+        <img src={Photo} alt=''/>
+      </div>
+      
+        <p>Products</p>
 
       <div className='home-products'>
         <div className='home-product'/>
@@ -18,13 +18,10 @@ function Home() {
         <div className='home-product'/>
         <div className='home-product'/>
 
-        
-      </div>
-
       </div>
 
       <div className="text">
-      Coming soon
+        Coming soon
       </div>
     </div>
     
