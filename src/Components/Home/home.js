@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
 import Photo from '../../Images/photo.png'
+import Switch from '../../Images/switch.png'
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
       </div>
       
       <div className='product-section'>
-      <p>Products</p>
+      <h1>Products</h1>
 
       <div className='home-products'>
         <div className='home-product'/>
@@ -24,7 +25,8 @@ function Home() {
       
 
       <div className="text">
-        Coming soon
+        <p>Coming Soon</p>
+        {/* <img src={Switch} alt=''/> */}
       </div>
     </div>
     
